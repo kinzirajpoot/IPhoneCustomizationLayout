@@ -1,0 +1,142 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.main-container {
+  width: 430px;
+  margin: 30px auto;
+  background-color: #000000;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 20px 20px rgba(135, 135, 134, 0.3); */
+}
+body {
+  font-family: sans-serif;
+}
+.header {
+  background-color: #333333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 170px;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+}
+.time {
+  color: #fff;
+  font-size: 18px;
+  float: left;
+  margin-right: 8px;
+}
+.header-icon {
+  fill: #fff;
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+}
+.header-icon1 {
+  stroke: #fff;
+  height: 22px;
+  width: 22px;
+}
+.set {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 60px;
+  height: 50px;
+  justify-items: start;
+  align-items: center;
+  background-color: #333333;
+  margin-bottom: 8px;
+}
+.close {
+  color: #3498db;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.setting {
+  color: #fff;
+  font-size: 26px;
+}
+.custom {
+  color: #3498db;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+}
+.icon {
+  fill: #3498db;
+  height: 24px;
+  width: 24px;
+}
+.whole-div {
+  display: grid;
+  grid-template-columns: 35px 2.5fr 20px;
+  padding: 15px;
+  color: #fff;
+  background-color: #272727;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+}
+.whole {
+  display: grid;
+  grid-template-columns: 35px 2.5fr 80px;
+  padding: 15px;
+  color: #fff;
+  background-color: #272727;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+  font-size: 18px;
+}
+.whole1 {
+  display: grid;
+  grid-template-columns: 35px 2.5fr 60px;
+  padding: 15px;
+  color: #fff;
+  background-color: #272727;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+  font-size: 18px;
+}
+.whole-div p {
+  font-size: 18px;
+}
+.end-icon {
+  stroke: #666666;
+  width: 24px;
+  height: 24px;
+}
+.theme-div {
+  display: grid;
+  grid-template-columns: 35px 1.7fr 1.5fr;
+  background-color: #272727;
+  color: #fff;
+  padding: 10px 15px;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+  align-items: center;
+  font-size: 18px;
+}
+.empty {
+  background-color: darkcyan;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.color1 {
+  background-color: chocolate;
+}
+.color2 {
+  background-color: rgb(163, 112, 95);
+}
+.color3 {
+  background-color: rgb(87, 180, 87);
+}
+.color4 {
+  background-color: cadetblue;
+}
+.end-para {
+  color: #808080;
+}
